@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["kakakakakku"]
   spec.email         = ["y.yoshida22@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{blinkcolor: light up any color with blink(1)}
+  spec.description   = %q{blinkcolor: light up any color with blink(1)}
+  spec.homepage      = "https://github.com/Kakakakakku/blinkcolor"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -30,4 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+
+  spec.add_dependency 'thor'
+  spec.add_dependency 'rb-blink1', '~> 0.0.7'
 end
